@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Sample SignalR Web Site";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Erfan</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+
+<div id="ChatBox" class="card">
+    <div class="card-header">
+        <b>پشتیبانی آنلاین</b>
+    </div>
+    <div id="MessagePanel">
+        <ul id="Messages"></ul>
+        <div id="SendMessage">
+            <form id="NewMessageForm" class="row">
+                <input id="MessageInput" 
+                    class="form-control col-md-8 col-sm-8" 
+                    placeholder="پیام خود را وارد کنید..." />
+                    <button class="btn btn-success col-md-4 col-md-4">
+                        ارسال 
+                    </button>
+            </form>
+        </div>
+    </div>
+</div>
